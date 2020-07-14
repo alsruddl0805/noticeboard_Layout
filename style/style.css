@@ -1,0 +1,267 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+* {
+	color: #000;
+	padding: 0;
+	margin: 0;
+    margin: 0 auto;
+	box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+div#wrap {
+    width: 910px;
+    height: 920px;
+}
+
+/*header 시작*/
+
+div#top {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+div#topLeft {
+    position: relative;
+    left: 0;
+    top: 18px;
+}
+
+span#gt {
+    color: skyblue;
+    font-size: 10px;
+}
+
+div#topLeft input {
+    width: 120px;
+    height: 30px;
+    border: 1px solid #aaa;
+}
+
+div#topRight {
+    position: relative;
+    left: 56%;
+    top: -12px;
+}
+
+div#top p {
+    height: 30px;
+    line-height: 10px;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #3d7b0e;
+    color: #fff;
+}
+
+div#middle p {
+    width: 900px;
+    height: 80px;
+    background-color: #eee;
+    border-top: 2px solid #09768b;
+}
+
+div#middle select {
+    width: 120px;
+    height: 35px;
+    border-color: #aaa;
+
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+div#middle input {
+    width: 620px;
+    height: 35px;
+    border: 1px solid #aaa;
+
+    position: relative;
+    left: 35px;
+    top: 20px;
+}
+
+div#middle span {
+    color: #09768b;
+
+    position: relative;
+    left: -290px;
+    top: 21px;
+}
+
+div#middle button {
+    border: none;
+    background-color: #09768b;
+    width: 70px;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+
+    position: relative;
+    left: -5px;
+    top: 21px;
+}
+
+div#bottom {
+    width: 900px;
+    height: 120px;
+    margin-top: 20px;
+    background-color: #eee;
+    border-top: 2px solid #09768b;
+}
+
+div#bottom span {
+    display: block;
+    margin-left: 40px;
+}
+
+div#bottom span:first-child {
+    font-weight: bold;
+    color: #555;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+div#bottom span:first-child~span {
+    font-size: 13px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/*header 종료*/
+
+/*main 시작*/
+
+div#bbs {
+    width: 900px;
+    margin-top: 20px;
+}
+
+div#bbs table {
+    width: 900px;
+    text-align: center;
+    border-top: 2px solid #3d7b0e;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+div#bbs table caption {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+div#bbs table th,td {
+    padding: 10px;
+}
+
+div#bbs table th,td {
+    border-bottom: 1px solid #ccc;
+}
+
+div#bbs table tr:last-child td {
+    border-bottom: none;
+}
+
+div#bbs table td {
+    color: #666;
+    font-size: 15px;
+}
+
+/*main 종료*/
+
+/*footer 시작*/
+
+div#num nav {
+    width: 400px;
+    height: 30px;
+}
+
+div#num ul {
+    display:flex;
+    justify-content: space-around;
+}
+
+div#num nav li {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    line-height: 26px;
+}
+
+div#num nav li:hover {
+    color: #fff;
+    background-color: #3d7b0e;
+}
+
+div#num button.bullet {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+}
+
+div#num button.bullet>span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+div#num button.bullet:first-child {
+    position: relative;
+    left: 220px;
+    top: 30px;
+}
+
+div#num button.bullet:nth-child(3) {
+    position: relative;
+    left: 657px;
+    top: -37px;
+}
+
+div#num button.bullet:nth-child(4) {
+    position: relative;
+    left: 657px;
+    top: -37px;
+}
+
+div#num button:last-child {
+    border: none;
+    font-size: 17px;
+    padding: 10px 40px;
+    background-color: #3d7b0e;
+    color: #fff;
+
+    position: relative;
+    left: 694px;
+    top: 40px;
+}
+
+/*footer 종료*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
